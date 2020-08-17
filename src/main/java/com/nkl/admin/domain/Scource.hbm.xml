@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-mapping SYSTEM "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN">
+
+-<hibernate-mapping>
+
+
+-<class table="scource" name="com.nkl.admin.domain.Scource">
+
+
+-<id name="scource_id" type="java.lang.Integer">
+
+<column name="scource_id"/>
+
+<generator class="native"/>
+
+</id>
+
+
+-<property name="user_id" type="java.lang.Integer">
+
+<column name="user_id"/>
+
+</property>
+
+
+-<property name="course_id" type="java.lang.Integer">
+
+<column name="course_id"/>
+
+</property>
+
+
+-<property name="scource_year" type="java.lang.Integer">
+
+<column name="scource_year"/>
+
+</property>
+
+
+-<property name="scource_year_half" type="java.lang.Integer">
+
+<column name="scource_year_half"/>
+
+</property>
+
+</class>
+
+</hibernate-mapping>
