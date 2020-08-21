@@ -26,7 +26,7 @@ public class User extends BaseDomain {
 	private String clazz_name; // 
 	private int course_id; // 
 	private int score_year; // 
-	private int score_year_half; // 
+	private int score_year_half; // ss
 	
 	private String ids;
 	private String random;
@@ -90,6 +90,8 @@ public class User extends BaseDomain {
 	public void setReal_name(String real_name){
 		this.real_name=real_name;
 	}
+
+
 
 	public String getReal_name(){
 		return real_name;
