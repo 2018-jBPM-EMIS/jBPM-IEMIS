@@ -27,7 +27,7 @@ public class BaseDao extends HibernateDaoSupport {
 	}
 
 	/**
-	 * 添加对象
+	 * 添加对象1212
 	 * @param o
 	 */
 	public void add(Object o) {
