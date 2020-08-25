@@ -15,12 +15,16 @@ public class Param {
 		return ctx.get(key)!=null?ctx.get(key).toString():null;
 	}
 	/**
-	 * 模拟request.getParameter(key)
+	 * 模拟request.getParameter(key)哈哈哈哈哈哈哈哈
+	 * kkkk
+	 * 
 	 * @param key
 	 * @return
 	 */
 	public static String getParameter(String key)
 	{
+		
+		
 		ActionContext ctx = ActionContext.getContext();
 		String[] param=(String[])ctx.getParameters().get(key);
 		if(param!=null&&param[0]!=null)
